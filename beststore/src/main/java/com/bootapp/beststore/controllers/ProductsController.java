@@ -190,7 +190,7 @@ public class ProductsController {
 			}
 			
 			// delete the product
-			repo.save(product);
+			repo.delete(product);
 		}catch(Exception ex) {
 			System.out.println("Exception: " + ex.getMessage());
 		}
